@@ -1,45 +1,50 @@
-.content {
-    display: flex;
-    flex-direction: row;
-    font-size: larger;
+html, body {
+    margin: 0;
+    height: 100%;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #181818;
-    color: #FBE0C3;
-    
-    
+
+.content {
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
 }
 div {
-    display: flex;
-    margin: 3px;
-    font-size: 30px;
-    
+    font-size: 60px;
 }
 
+body {
+  background-color: #344648;
+  color: #FBE0C3;
+  font-size: 30px;
+}
+  
 input {
-    background-color: #404040;
-    font-size: 30px;
-    color: #FBE0C3;
-    text-align: center;
+  background-color: grey;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
-
 button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    margin: 5px;
-  }
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 5px;
+}
 
 h1 {
-    font-size: 45px;
+  font-size: 45px;
+}
 
+.container {
+  height: 100%;
+  display :flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #404040;
 }
